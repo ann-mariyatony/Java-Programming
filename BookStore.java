@@ -25,9 +25,11 @@ public class BookStore {
 	public static void main(String[] args) {
 		 Book b1=new Book("dora","buji",209,3);
 		 b1.calaculateTotalValue();
-		 b1.displayDetails()
-		
-  }
-
-
+		 b1.displayDetails();
+		 Book b2=new Book("Micky","bukki",204,2);
+		 b2.calaculateTotalValue();
+		 b2.displayDetails();
+	}
 }
+}
+	
